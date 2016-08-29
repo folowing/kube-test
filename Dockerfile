@@ -1,5 +1,4 @@
-FROM 3.5.2-alpine
-# Test
+FROM python:3.5.2-alpine
 
 RUN mkdir -p /var/www && echo "Hello World!" > /var/www/index.html
 
